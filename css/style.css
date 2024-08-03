@@ -1,0 +1,402 @@
+/* ========== navber css ======= */
+
+.navbar{
+    background-color: #21243d;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.navbar-light .navbar-nav .nav-item{
+    padding: 0 15px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ffff;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffff;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    color: white;
+    font-size: 20px;
+}
+
+/* ========== benner css ======== */
+
+#benner{
+    background-image: url('../images/benner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 180px 0 150px 0;
+    position: relative;
+}
+
+#benner::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ca4e00,#ca4e00);
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+}
+
+.benner_text h1 {
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.benner_text p {
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 25px 90px 34px 0;
+}
+
+.benner_text a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #21243d;
+    padding: 15px 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 150px;
+}
+
+/* ========= menu css ====== */
+
+#menu {
+    background-image: url('../images/menu-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0 70px 0;
+}
+
+.menu_text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffff;
+    padding: 0 0 25px 0;
+}
+
+.menu_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 0 313px;
+    color: #ffff;
+}
+
+.menu_item {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.menu_item h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.menu_item p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 49px;
+    color: #ffff;
+}
+
+/* ========== free css ======= */
+
+#free {
+    background-image: url('../images/T\ hare\ benner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0 100px 0;
+    position: relative;
+}
+
+.free_text{
+    margin-top: 75px;
+}
+
+.free_text h1 {
+    color: #21243d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.free_text p {
+    color: #21243d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 25px 95px 34px 0;
+}
+
+.free_text a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:#21243d;
+    padding: 15px 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 150px;
+}
+
+/* ============ Statistics =========== */
+
+#Statistics {
+    background-image: url('../images/statistics\ benner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 115px 0;
+}
+
+.Statistics_text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffff;
+    padding: 0 0 25px 0;
+}
+
+.Statistics_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 0 313px;
+    color: #ffff;
+}
+
+.Statistics_item {
+    text-align: center;
+    padding: 30px 0px;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    width: 180px;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+}
+
+.Statistics_item h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+    font-size: 55px;
+}
+
+.Statistics_item h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/* ========= discount ======== */
+
+#discount {
+    background-image: url('../images/T\ hare\ benner\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0 100px 0;
+    position: relative;
+}
+
+.discount_text{
+    margin-top: 75px;
+}
+
+.discount_text h1 {
+    color: #21243d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.discount_text p {
+    color: #21243d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 25px 95px 34px 0;
+}
+
+.discount_text a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #21243d;
+    padding: 15px 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 150px;
+}
+
+/* ========= addie ========= */
+
+#addie {
+    background-image: url('../images/overlay-benner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 145px 0 135px 0;
+    position: relative;
+}
+
+#addie::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0a0d2e,#0a0d2e);
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+.addie_text img{
+    margin-bottom: 50px;
+}
+
+.addie_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 27px;
+    color: #ffff;
+    padding: 0 225px;
+}
+
+.addie_text h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffff;
+    padding: 10px 0 0 0;
+}
+
+/* ========= subscribe ======== */
+
+#subscribe {
+    background-image: url('../images/T\ hare\ benner\ 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 100px 0;
+}
+
+.subscribe_text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #21243d;
+    text-transform: capitalize;
+    padding: 0 0 20px 0;
+}
+
+.subscribe_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 232px;
+    color: #21243d;
+}
+
+.form {
+    padding: 45px 330px;
+}
+
+.input-group input{
+    height: 40px;
+    border-radius: 30px;
+}
+
+.input-group input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #6e6d6d;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.input-group-text {
+    background-color: #21243d;
+    color: #fff;
+    padding: 0 40px;
+    border-radius: 22px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* ========= footer ======== */
+
+#footer {
+    background-image: url('../images/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0 160px 0;
+}
+
+.best_pizza h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffff;
+}
+
+.best_pizza p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffff;
+    padding: 17px 212px 17px 0;
+}
+
+.best_pizza_icon{
+    word-spacing: 10px;
+}
+
+.about h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffff;
+}
+
+.about p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffff;
+    padding: 17px 0;
+    line-height: 2;
+}
+
+
+/*font-family: 'Montserrat', sans-serif;*/
